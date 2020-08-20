@@ -5,17 +5,9 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 
 ## Already done
 
-#### Two sum
-Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
+[Two Sum](./document.md/#two-sum)
 
-You may assume that each input would have **exactly** one solution, and you may not use the same element twice.
-
-	**Example:**
-
-	Given nums = [2, 7, 11, 15], target = 9,
-
-	Because nums[0] + nums[1] = 2 + 7 = 9,
-	return [0, 1].
+[Reverse Integer](./document.md/#reverse-integer)
 
 Enjoy!
-"# jjca" 
+"# jjca"

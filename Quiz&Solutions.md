@@ -1,8 +1,8 @@
 # Índice de preguntas
 
 [Problema de los caballos](#problema-de-los-caballos)
-[Probabilidad: Coches por semaforo](#probabilidad:-coches-por-semaforo)
-[Probabilidad: Dos digitos divisibles entre 7](#probabilidad:-dos-digitos-divisibles-entre-7)
+[Probabilidad: Coches por semaforo](#probabilidad-coches-por-semaforo)
+[Probabilidad: Dos digitos divisibles entre 7](#probabilidad-dos-digitos-divisibles-entre-7)
 
 ## Problema de los caballos
 **Tenemos 25 caballos entre los que necesitamos encontrar los 3 más rápidos.**

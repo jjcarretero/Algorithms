@@ -1,10 +1,16 @@
-# Problema de los caballos
+# Índice de preguntas
+
+[Problema de los caballos](#problema-de-los-caballos)
+[Probabilidad: Coches por semaforo](#probabilidad:-coches-por-semaforo)
+[Probabilidad: Dos digitos divisibles entre 7](#probabilidad:-dos-digitos-divisibles-entre-7)
+
+## Problema de los caballos
 **Tenemos 25 caballos entre los que necesitamos encontrar los 3 más rápidos.**
 **Puedes hacer correr simultáneamente un máximo de 5 caballos al mismo tiempo, sólo conoceremos sus posiciones, nunca su tiempo, ni su velocidad.**
 **¿Cuántas carreras necesitamos para encontrar a los tres caballos más rápidos?**
 
 
-## Solución
+### Solución
 
 	a1   b1   c1   d1   e1
 	a2   b2   c2   d2   e2
@@ -44,12 +50,12 @@ Por lo que si hacemos una septima carrera que englobe a:
 
 Tenemos nuestros 3 mejores caballos: b1 + los dos mas rapidos de la ultima carrera. En total, necesitamos 7 carreras.
 
-# Probabilidad: Coches por semaforo
+## Probabilidad: Coches por semaforo
 **Suponemos que 'p' es el numero de coches que pasan por minuto por un determinado cruce entre las 5PM y las 6 PM.**
 **'p' tiene una distribución de Poisson de media 3.**
 **¿Cuál es la probabilidad de observar menos de 3 coches durante cualquier minuto de dicho intervalo?**
 
-## Solución
+### Solución
 La probabilidad de que pasen menos de 3 coches por minuto, implica que puede ser que pasen 0, que pase 1 o que pasen 2.
 Esto supondría el siguiente planteamiento:
 
@@ -65,8 +71,8 @@ Los resultados de estas operaciones son:
 
 Es decir, tenemos una probabilidad del 0,423% de que suceda.
 
-# Probabilidad: Dos digitos divisibles entre 7
+## Probabilidad: Dos digitos divisibles entre 7
 **De todos los numeros enteros de 2 digitos de entre 1 y 100, hemos de elegir un numero al azar.**
 **¿Qué probabilidades hay de que el número seleccionado NO sea divisible entre 7?**
 
-## Solución
+### Solución

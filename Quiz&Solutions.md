@@ -78,3 +78,28 @@ Es decir, tenemos una probabilidad del 0,423% de que suceda.
 **¿Qué probabilidades hay de que el número seleccionado NO sea divisible entre 7?**
 
 ### Solución
+El primer número con dos dígitos es el 10 y el último el 99 (incluyendolos el total son 90 números).
+
+Si hacemos la tabla de multiplicar del 7 tenemos:
+
+	14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91 y 98
+
+Por lo tanto hay 13 números de 90 de ser divisibles entre 7 y, por lo tanto, 77/90 de que no lo sean.
+	77 / 90 = 0.855...
+
+Podemos crear un programa rápido para resolver el problema si usamos el resto (%):
+
+	#include <stdio.h>
+	int main()
+	{
+		int i;
+		int r;
+		i = 10;
+		while (i < 100)
+		{
+			if (i % 7 != 0)
+				r++;
+			i++;
+		}
+		printf("R es %d\n", r);
+	}

@@ -21,7 +21,7 @@ int	isPalindrome(int x)
 	i = x;
 	while (i > 0)
 	{
-		if ((r > INT_MAX /10) || (r == INT_MAX / 10 && i % 10 > INT_MAX %10))
+		if ((r > INT_MAX / 10) || (r == INT_MAX / 10 && i % 10 > INT_MAX % 10))
 			return (0);
 		r = r * 10 + i % 10;
 		i /= 10;

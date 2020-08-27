@@ -12,10 +12,10 @@
 
 #include "./libft.h"
 
-int romanToInt(char * s)
+int	romanToInt(char *s)
 {
-	int num;
-	int i;
+	int	num;
+	int	i;
 
 	i = 0;
 	num = 0;
@@ -26,7 +26,7 @@ int romanToInt(char * s)
 		else if (s[i] == 'V')
 			num += 5;
 		else if (s[i] == 'X')
-			num += (s[i + 1 ] == 'L' || s[i + 1] == 'C') ? -10 : 10;
+			num += (s[i + 1] == 'L' || s[i + 1] == 'C') ? -10 : 10;
 		else if (s[i] == 'L')
 			num += 50;
 		else if (s[i] == 'C')

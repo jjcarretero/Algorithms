@@ -10,26 +10,23 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isValid(char * s)
+int	ft_isValid(char *s)
 {
 	int		i;
-	int		len;
 	int		peek;
 	char	*stack;
 
-	len = ft_strlen(s);
-	stack = (char*)malloc(sizeof(char) * len);
+	stack = (char*)malloc(sizeof(char) * ft_strlen(s));
 	peek = -1;
 	i = 0;
-	while (i < len)
+	while (i++ < ft_strlen(s))
 	{
-		peek++;
-		stack[peek] = s[i];
-		if((s[i] == ')') || s[i] == '}' || s[i] == ']')
+		stack[++peek] = s[i];
+		if ((s[i] == ')') || s[i] == '}' || s[i] == ']')
 		{
 			if (peek >= 1)
 			{
-				if (ft_abs(stack[peek - 1] - stack [peek]) < 3)
+				if (ft_abs(stack[peek - 1] - stack[peek]) < 3)
 					peek -= 2;
 				else
 					return (0);
@@ -37,9 +34,6 @@ int	ft_isValid(char * s)
 			else
 				return (0);
 		}
-		i++;
 	}
-	if (peek < 0)
-		return (1);
-	return (0);
+	return ((peek < 0) ? 1 : 0);
 }

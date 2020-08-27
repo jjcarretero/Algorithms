@@ -34,7 +34,7 @@ static void		complete_hash(t_values *val)
 	}
 }
 
-static void		create_values(int *nums, int numsSize, t_values *val)
+static void		create_values(int *nums, int numssize, t_values *val)
 {
 	int	i;
 	int	min;
@@ -44,7 +44,7 @@ static void		create_values(int *nums, int numsSize, t_values *val)
 	min = 2147483647;
 	max = -2147483648;
 	i = 0;
-	while (i < numsSize)
+	while (i < numssize)
 	{
 		if (nums[i] < min)
 			min = nums[i];
@@ -52,24 +52,28 @@ static void		create_values(int *nums, int numsSize, t_values *val)
 			max = nums[i];
 		i++;
 	}
-
 	val->min = min;
 	val->max = max;
 	val->len = max - min + 1;
 }
 
-int*			ft_twoSum(int* nums, int numsSize, int target)
+static void		prepare_function(int **res, t_values *val, int nums, int numssize)
 {
-	int*		res;
+	if (!(res = (int*)malloc(sizeof(int) * 2)))
+		return (NULL);
+	ft_bzero(&val, sizeof(val));
+	create_values(nums, numssize, &val);
+	complete_hash(&val);
+}
+
+int				*ft_twoSum(int *nums, int numsSize, int target)
+{
+	int			*res;
 	t_values	val;
 	int			diff;
 	int			i;
 
-	if (!(res = (int*)malloc(sizeof(int)*2)))
-		return (NULL);
-	ft_bzero(&val, sizeof(val));
-	create_values (nums, numsSize, &val);
-	complete_hash(&val);
+	prepare_function(&*res, &val, nums, numsSize);
 	i = 0;
 	while (i < numsSize)
 	{

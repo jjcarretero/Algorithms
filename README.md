@@ -13,4 +13,6 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 
 [Roman to Integer](./document.md/#roman-to-integer)
 
+[Valid Parentheses](./document.md/#valid-parentheses)
+
 Enjoy!

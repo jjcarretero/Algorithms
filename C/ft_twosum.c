@@ -57,7 +57,8 @@ static void		create_values(int *nums, int numssize, t_values *val)
 	val->len = max - min + 1;
 }
 
-static void		prepare_function(int **res, t_values *val, int nums, int numssize)
+static void		prepare_function(int **res, t_values *val,\
+									int nums, int numssize)
 {
 	if (!(res = (int*)malloc(sizeof(int) * 2)))
 		return (NULL);

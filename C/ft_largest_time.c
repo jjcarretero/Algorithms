@@ -16,20 +16,18 @@ static char	*ft_hourtoa(int h)
 {
 	int		hrs;
 	int		mins;
-	char	*h_str;
-	char	*m_str;
 	char	*ret;
 
 	hrs = h / 60;
 	mins = h % 60;
-	m_str = (mins < 10) ? ft_strjoin("0", ft_itoa(mins)) : ft_itoa(mins);
-	if (hrs < 10)
-		ft_strjoin("0", ft_strjoin(ft_itoa(hrs), ":"));
-	else
-		ft_strjoin(ft_itoa(hrs), ":");
-	ret = ft_strjoin(h_str, m_str);
-	ft_memfree(h_str, NULL);
-	ft_memfree(m_str, NULL);
+	if (!(ret = (char*)malloc(sizeof(char) * 6)))
+		return (0);
+	ret[0] = (hrs / 10) + 48;
+	ret[1] = (hrs % 10) + 48;
+	ret[2] = ":";
+	ret[3] = (mins / 10) + 48;
+	ret[4] = (mins % 10) + 48;
+	ret[5] = "\0";
 	return (ret);
 }
 

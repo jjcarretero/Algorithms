@@ -17,4 +17,6 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 
 [Merge Two Sorted Lists](./document.md/#merge-two-sorted-lists)
 
+[Largest Time For Given Digits](./document.md/#largest-time-for-given-digits)
+
 Enjoy!

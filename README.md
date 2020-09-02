@@ -19,4 +19,6 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 
 [Largest Time For Given Digits](./document.md/#largest-time-for-given-digits)
 
+[Contains Duplicate III](./document.md/#contains-duplicate-iii)
+
 Enjoy!

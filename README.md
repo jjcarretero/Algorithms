@@ -21,4 +21,6 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 
 [Contains Duplicate III](./document.md/#contains-duplicate-iii)
 
+[Repeated Substring Pattern](./document.md/#repeated-substring-pattern)
+
 Enjoy!

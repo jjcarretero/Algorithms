@@ -10,6 +10,7 @@ You may assume that each input would have **exactly** one solution, and you may 
 	Because nums[0] + nums[1] = 2 + 7 = 9,
 	return [0, 1].
 
+
 #### Reverse Integer
 Given a 32-bit signed integer, reverse digits of an integer.
 
@@ -30,6 +31,7 @@ Assume we are dealing with an environment which could only store integers within
 
 	Input: 120
 	Output: 21
+
 
 #### Palindrome Number
 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
@@ -53,6 +55,7 @@ Solve it without converting the integer to a string
 	Input: 10
 	Output: false
 *Explanation: Reads 01 from right to left. Therefore it is not a palindrome.*
+
 
 #### Roman to Integer
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
@@ -104,6 +107,7 @@ Given a roman numeral, convert it to an integer. Input is guaranteed to be withi
 	Output: 1994
 *Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.*
 
+
 #### Valid Parentheses
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -140,6 +144,7 @@ Note that an empty string is also considered valid.
 	Input: "{[]}"
 	Output: true
 
+
 #### Merge Two Sorted Lists
 Merge two sorted linked lists and return it as a new **sorted** list. The new list should be made by splicing together the nodes of the first two lists.
 
@@ -147,6 +152,7 @@ Merge two sorted linked lists and return it as a new **sorted** list. The new li
 
 	Input: 1->2->4, 1->3->4
 	Output: 1->1->2->3->4->4
+
 
 #### Largest Time for Given Digits
 Given an array of 4 digits, return the largest 24 hour time that can be made.
@@ -170,6 +176,7 @@ Return the answer as a string of length 5.  If no valid time can be made, return
 	A.length == 4
 	0 <= A[i] <= 9
 
+
 #### Contains Duplicate III
 Given an array of integers, find out whether there are two distinct indices i and j in the array such that the **absolute** difference between **nums[i]** and **nums[j]** is at most t and the **absolute** difference between i and j is at most k.
 
@@ -187,3 +194,24 @@ Given an array of integers, find out whether there are two distinct indices i an
 
 	Input: nums = [1,5,9,1,5,9], k = 2, t = 3
 	Output: false
+
+
+#### Repeated Substring Pattern
+Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
+
+	**Example 1:**
+
+	Input: "abab"
+	Output: True
+	Explanation: It's the substring "ab" twice.
+
+	**Example 2:**
+
+	Input: "aba"
+	Output: False
+
+	**Example 3:**
+
+	Input: "abcabcabcabc"
+	Output: True
+	Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)

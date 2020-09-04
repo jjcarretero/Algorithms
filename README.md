@@ -4,25 +4,17 @@
 The aim of this project is to code all Leetcode Challenges from Easy to Hard in different languages. My C files are prepared to work with norminette within 42 school and they are tested with my own functions, so you will probably see ft_* insted of the library functions with the same names.
 
 ## Already done
-
-[Two Sum](./document.md/#two-sum)
-
-[Reverse Integer](./document.md/#reverse-integer)
-
-[Palindrome Number](./document.md/#palindrome-number)
-
-[Roman to Integer](./document.md/#roman-to-integer)
-
-[Valid Parentheses](./document.md/#valid-parentheses)
-
-[Merge Two Sorted Lists](./document.md/#merge-two-sorted-lists)
-
-[Largest Time For Given Digits](./document.md/#largest-time-for-given-digits)
-
-[Contains Duplicate III](./document.md/#contains-duplicate-iii)
-
-[Repeated Substring Pattern](./document.md/#repeated-substring-pattern)
-
-[Partition Labels](./document.md/#partition-labels)
+| # | Title | Tags | Difficulty | Date |
+|:---:|:---|:---:|:---|:---:|
+| 001 | [Two Sum](./document.md/#two-sum) | `Array`, `Hash Table` | 2020. 08. 16. |
+| 007 | [Reverse Integer](./document.md/#reverse-integer) | `Math` | 2020. 08. 20. |
+| 009 | [Palindrome Number](./document.md/#palindrome-number) | `Math` | 2020. 08. 21. |
+| 013 | [Roman to Integer](./document.md/#roman-to-integer) | `Math`, `String` | 2020. 08. 22. |
+| 020 | [Valid Parentheses](./document.md/#valid-parentheses) | `String`, `Stack` | 2020. 08. 27. |
+| 021 | [Merge Two Sorted Lists](./document.md/#merge-two-sorted-lists) | `Linked List` | 2020. 08. 30. |
+| 220 | [Contains Duplicate III](./document.md/#contains-duplicate-iii) | `Sort`, `Ordered Map` | 2020. 09. 02. |
+| 459 | [Repeated Substring Pattern](./document.md/#repeated-substring-pattern) | `String` | 2020. 09. 03. |
+| 763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | 2020. 08. 04. |
+| 949 | [Largest Time For Given Digits](./document.md/#largest-time-for-given-digits) | `Math` | 2020. 09. 01. |
 
 Enjoy!

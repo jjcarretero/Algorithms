@@ -1,4 +1,4 @@
-#### Two sum [C](./C/ft_twosum.c) [C#](./C#/twosum.cs)
+#### Two sum							[C](./C/ft_twosum.c) [C#](./Cs/twosum.cs)
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
 
 You may assume that each input would have **exactly** one solution, and you may not use the same element twice.
@@ -11,7 +11,7 @@ You may assume that each input would have **exactly** one solution, and you may 
 	return [0, 1].
 
 
-#### Reverse Integer
+#### Reverse Integer					[C](./C/ft_reverse_int.c) [C#](./Cs/reverseint.cs)
 Given a 32-bit signed integer, reverse digits of an integer.
 
 **Note:**
@@ -33,7 +33,7 @@ Assume we are dealing with an environment which could only store integers within
 	Output: 21
 
 
-#### Palindrome Number
+#### Palindrome Number					[C](./C/ft_ispalindrome.c) [C#](./Cs/ispalindrome.cs)
 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
 
 **Note:**
@@ -57,7 +57,7 @@ Solve it without converting the integer to a string
 *Explanation: Reads 01 from right to left. Therefore it is not a palindrome.*
 
 
-#### Roman to Integer
+#### Roman to Integer					[C](./C/ft_romantoi.c) [C#](./Cs/romantoint.cs)
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
 	Symbol       Value
@@ -108,7 +108,7 @@ Given a roman numeral, convert it to an integer. Input is guaranteed to be withi
 *Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.*
 
 
-#### Valid Parentheses
+#### Valid Parentheses					[C](./C/ft_isvalid.c) [C#](./Cs/validparentheses.cs)
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
 An input string is valid if:
@@ -145,7 +145,7 @@ Note that an empty string is also considered valid.
 	Output: true
 
 
-#### Merge Two Sorted Lists
+#### Merge Two Sorted Lists				[C](./C/ft_lstmerge.c) [C#](./Cs/mergetwolists.cs)
 Merge two sorted linked lists and return it as a new **sorted** list. The new list should be made by splicing together the nodes of the first two lists.
 
 	**Example:**
@@ -154,7 +154,7 @@ Merge two sorted linked lists and return it as a new **sorted** list. The new li
 	Output: 1->1->2->3->4->4
 
 
-#### Largest Time for Given Digits
+#### Largest Time for Given Digits		[C](./C/ft_largest_time.c) [C#](./Cs/largesttime.cs)
 Given an array of 4 digits, return the largest 24 hour time that can be made.
 
 The smallest 24 hour time is 00:00, and the largest is 23:59.  Starting from 00:00, a time is larger if more time has elapsed since midnight.
@@ -177,7 +177,7 @@ Return the answer as a string of length 5.  If no valid time can be made, return
 	0 <= A[i] <= 9
 
 
-#### Contains Duplicate III
+#### Contains Duplicate III				[C](./C/ft_containsduplicate3.c) [C#](./Cs/containsduplicate3.cs)
 Given an array of integers, find out whether there are two distinct indices i and j in the array such that the **absolute** difference between **nums[i]** and **nums[j]** is at most t and the **absolute** difference between i and j is at most k.
 
 	**Example 1:**
@@ -196,7 +196,7 @@ Given an array of integers, find out whether there are two distinct indices i an
 	Output: false
 
 
-#### Repeated Substring Pattern
+#### Repeated Substring Pattern			[C](./C/ft_repeatedsubstring.c) [C#](./Cs/repeatedsubstring.cs)
 Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
 
 	**Example 1:**
@@ -217,7 +217,7 @@ Given a non-empty string check if it can be constructed by taking a substring of
 	Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)
 
 
-#### Partition Labels
+#### Partition Labels					[C](./C/ft_partitionlabels.c) [C#](./Cs/partitionlabels.cs)
 A string S of lowercase English letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
 
 	**Example 1:**

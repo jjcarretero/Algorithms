@@ -23,4 +23,6 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 
 [Repeated Substring Pattern](./document.md/#repeated-substring-pattern)
 
+[Partition Labels](./document.md/#partition-labels)
+
 Enjoy!

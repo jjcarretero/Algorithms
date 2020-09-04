@@ -217,7 +217,7 @@ Given a non-empty string check if it can be constructed by taking a substring of
 	Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)
 
 
-#### Partition Labels					[C](./C/ft_partitionlabels.c) [C#](./Cs/partitionlabels.cs)
+#### Partition Labels					[C](./C/ft_partitionlabels.c) [C#](./Cs/partitionlabel.cs)
 A string S of lowercase English letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
 
 	**Example 1:**

@@ -14,7 +14,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0021 | [Merge Two Sorted Lists](./document.md/#merge-two-sorted-lists) | `Linked List` | Easy | 2020. 08. 30. |
 | 0220 | [Contains Duplicate III](./document.md/#contains-duplicate-iii) | `Sort`, `Ordered Map` | Medium | 2020. 09. 02. |
 | 0459 | [Repeated Substring Pattern](./document.md/#repeated-substring-pattern) | `String` | Easy | 2020. 09. 03. |
-| 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 08. 04. |
+| 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 09. 04. |
 | 0949 | [Largest Time For Given Digits](./document.md/#largest-time-for-given-digits) | `Math` | Easy | 2020. 09. 01. |
 | 1305 | [All Elements in Two Binary Search Trees](./document.md/#all-elements-in-two-binary-search-trees) | `Sort`, `Tree` | Medium | 2020. 09. 05. |
 

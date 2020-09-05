@@ -261,8 +261,9 @@ A string S of lowercase English letters is given. We want to partition this stri
 Given two binary search trees root1 and root2.
 Return a list containing all the integers from both trees sorted in ascending order.
 
+![AEITBST01](https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png)
+
 	**Example 1:**
-	![AEITBST01](https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png)
 	Input: root1 = [2,1,4], root2 = [1,0,3]
 	Output: [0,1,1,2,3,4]
 
@@ -281,8 +282,9 @@ Return a list containing all the integers from both trees sorted in ascending or
 	Input: root1 = [0,-10,10], root2 = []
 	Output: [-10,0,10]
 
+![AEITBST02](https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png)
+
 	**Example 5:**
-	![AEITBST02](https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png)
 	Input: root1 = [1,null,8], root2 = [8,1]
 	Output: [1,1,8,8]
 

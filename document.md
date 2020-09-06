@@ -306,7 +306,7 @@ What is the largest possible overlap?
 
 	**Example 1:**
 
-	Input:	A =	[[1,1,0],
+	Input:		A =	[[1,1,0],
 				[0,1,0],
 				[0,1,0]]
 			B =	[[0,0,0],

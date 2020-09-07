@@ -13,6 +13,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0020 | [Valid Parentheses](./document.md/#valid-parentheses) | `String`, `Stack` | Easy | 2020. 08. 27. |
 | 0021 | [Merge Two Sorted Lists](./document.md/#merge-two-sorted-lists) | `Linked List` | Easy | 2020. 08. 30. |
 | 0220 | [Contains Duplicate III](./document.md/#contains-duplicate-iii) | `Sort`, `Ordered Map` | Medium | 2020. 09. 02. |
+| 0290 | [Word Pattern](./document.md/#word-pattern) | `Hash Table` | Easy | 2020. 09. 07. |
 | 0459 | [Repeated Substring Pattern](./document.md/#repeated-substring-pattern) | `String` | Easy | 2020. 09. 03. |
 | 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 09. 04. |
 | 0835 | [Image Overlap](./document.md/#image-overlap) | `Array` | Medium | 2020. 09. 06. |

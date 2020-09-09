@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_compare_versionnumber.c                         :+:      :+:    :+:   */
+/*   ft_compare_version_nbr.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jcarrete <jcarrete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/09/09 18:12:02 by jcarrete          #+#    #+#             */
-/*   Updated: 2020/09/09 18:12:02 by jcarrete         ###   ########.fr       */
+/*   Created: 2020/09/09 18:19:48 by jcarrete          #+#    #+#             */
+/*   Updated: 2020/09/09 18:19:48 by jcarrete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,8 @@ int	get_version_int(char *ver, int *i)
 	intver = 0;
 	while (ver[*i] != '.' && ver[*i] != '\0')
 	{
-		if (ver[*i] != '.' && ver[*i] != '\0')
-		{
-			intver = 10 * intver + (ver[*i] - 48);
-			*i += 1;
-		}
+		intver = 10 * intver + (ver[*i] - 48);
+		*i += 1;
 	}
 	return (intver);
 }

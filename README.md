@@ -15,6 +15,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0165 | [Compare Version Numbers](./document.md/#compare-version-numbers) | `String` | Medium | 2020. 09. 09. |
 | 0220 | [Contains Duplicate III](./document.md/#contains-duplicate-iii) | `Sort`, `Ordered Map` | Medium | 2020. 09. 02. |
 | 0290 | [Word Pattern](./document.md/#word-pattern) | `Hash Table` | Easy | 2020. 09. 07. |
+| 0299 | [Bulls and Cows](./document.md/#bulls-and-cows) | `Hash Table` | Easy | 2020. 09. 10. |
 | 0459 | [Repeated Substring Pattern](./document.md/#repeated-substring-pattern) | `String` | Easy | 2020. 09. 03. |
 | 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 09. 04. |
 | 0835 | [Image Overlap](./document.md/#image-overlap) | `Array` | Medium | 2020. 09. 06. |

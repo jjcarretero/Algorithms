@@ -440,7 +440,7 @@ Please note that both secret number and friend's guess may contain duplicate dig
 	You may assume that the secret number and your friend's guess only contain digits, and their lengths are always equal.
 
 
-## Max Product Subarray
+## Maximum Product Subarray
 ([C](./C/ft_max_product_subar.c)   /   [C#](./Cs/maxproductsubarray.cs))
 
 Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product.

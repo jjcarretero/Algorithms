@@ -5,7 +5,7 @@ Given an array of integers, return **indices** of the two numbers such that they
 
 You may assume that each input would have **exactly** one solution, and you may not use the same element twice.
 
-	**Example:**
+**Example:**
 
 	Given nums = [2, 7, 11, 15], target = 9,
 
@@ -21,17 +21,17 @@ Given a 32-bit signed integer, reverse digits of an integer.
 **Note:**
 Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: 123
 	Output: 321
 
-	**Example 2:**
+**Example 2:**
 
 	Input: -123
 	Output: -321
 
-	**Example 3:**
+**Example 3:**
 
 	Input: 120
 	Output: 21
@@ -45,18 +45,18 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 **Note:**
 Solve it without converting the integer to a string
 
-	**Example 1:**
+**Example 1:**
 
 	Input: 121
 	Output: true
 
-	**Example 2:**
+**Example 2:**
 
 	Input: -121
 	Output: false
 *Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.*
 
-	**Example 3:**
+**Example 3:**
 
 	Input: 10
 	Output: false
@@ -87,22 +87,22 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 
 Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: "III"
 	Output: 3
 
-	**Example 2:**
+**Example 2:**
 
 	Input: "IV"
 	Output: 4
 
-	**Example 3:**
+**Example 3:**
 
 	Input: "IX"
 	Output: 9
 
-	**Example 4:**
+**Example 4:**
 
 	Input: "LVIII"
 	Output: 58
@@ -129,27 +129,27 @@ An input string is valid if:
 **Note:**
 Note that an empty string is also considered valid.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: "()"
 	Output: true
 
-	**Example 2:**
+**Example 2:**
 
 	Input: "()[]{}"
 	Output: true
 
-	**Example 3:**
+**Example 3:**
 
 	Input: "(]"
 	Output: false
 
-	**Example 4:**
+**Example 4:**
 
 	Input: "([)]"
 	Output: false
 
-	**Example 5:**
+**Example 5:**
 
 	Input: "{[]}"
 	Output: true
@@ -160,7 +160,7 @@ Note that an empty string is also considered valid.
 
 Merge two sorted linked lists and return it as a new **sorted** list. The new list should be made by splicing together the nodes of the first two lists.
 
-	**Example:**
+**Example:**
 
 	Input: 1->2->4, 1->3->4
 	Output: 1->1->2->3->4->4
@@ -175,12 +175,12 @@ The smallest 24 hour time is 00:00, and the largest is 23:59.  Starting from 00:
 
 Return the answer as a string of length 5.  If no valid time can be made, return an empty string.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: [1,2,3,4]
 	Output: "23:41"
 
-	Example 2:
+**Example 2:**
 
 	Input: [5,5,5,5]
 	Output: ""
@@ -196,17 +196,17 @@ Return the answer as a string of length 5.  If no valid time can be made, return
 
 Given an array of integers, find out whether there are two distinct indices i and j in the array such that the **absolute** difference between **nums[i]** and **nums[j]** is at most t and the **absolute** difference between i and j is at most k.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: nums = [1,2,3,1], k = 3, t = 0
 	Output: true
 
-	**Example 2:**
+**Example 2:**
 
 	Input: nums = [1,0,1,1], k = 1, t = 2
 	Output: true
 
-	**Example 3:**
+**Example 3:**
 
 	Input: nums = [1,5,9,1,5,9], k = 2, t = 3
 	Output: false
@@ -217,22 +217,22 @@ Given an array of integers, find out whether there are two distinct indices i an
 
 Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: "abab"
 	Output: True
-	Explanation: It's the substring "ab" twice.
+*Explanation: It's the substring "ab" twice.*
 
-	**Example 2:**
+**Example 2:**
 
 	Input: "aba"
 	Output: False
 
-	**Example 3:**
+**Example 3:**
 
 	Input: "abcabcabcabc"
 	Output: True
-	Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)
+*Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)*
 
 
 ## Partition Labels
@@ -240,14 +240,14 @@ Given a non-empty string check if it can be constructed by taking a substring of
 
 A string S of lowercase English letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: S = "ababcbacadefegdehijhklij"
 	Output: [9,7,8]
-	Explanation:
-	The partition is "ababcbaca", "defegde", "hijhklij".
-	This is a partition so that each letter appears in at most one part.
-	A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits S into less parts.
+*Explanation:*
+*The partition is "ababcbaca", "defegde", "hijhklij".*
+*This is a partition so that each letter appears in at most one part.*
+*A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits S into less parts.*
 
 **Note:**
 
@@ -263,28 +263,30 @@ Return a list containing all the integers from both trees sorted in ascending or
 
 ![AEITBST01](https://assets.leetcode.com/uploads/2019/12/18/q2-e1.png)
 
-	**Example 1:**
+**Example 1:**
+
 	Input: root1 = [2,1,4], root2 = [1,0,3]
 	Output: [0,1,1,2,3,4]
 
-	**Example 2:**
+**Example 2:**
 
 	Input: root1 = [0,-10,10], root2 = [5,1,7,0,2]
 	Output: [-10,0,0,1,2,5,7,10]
 
-	**Example 3:**
+**Example 3:**
 
 	Input: root1 = [], root2 = [5,1,7,0,2]
 	Output: [0,1,2,5,7]
 
-	**Example 4:**
+**Example 4:**
 
 	Input: root1 = [0,-10,10], root2 = []
 	Output: [-10,0,10]
 
 ![AEITBST02](https://assets.leetcode.com/uploads/2019/12/18/q2-e5-.png)
 
-	**Example 5:**
+**Example 5:**
+
 	Input: root1 = [1,null,8], root2 = [8,1]
 	Output: [1,1,8,8]
 
@@ -304,7 +306,7 @@ We translate one image however we choose (sliding it left, right, up, or down an
 
 What is the largest possible overlap?
 
-	**Example 1:**
+**Example 1:**
 
 	Input:		A =	[[1,1,0],
 				[0,1,0],
@@ -313,7 +315,7 @@ What is the largest possible overlap?
 				[0,1,1],
 				[0,0,1]]
 	Output: 3
-	Explanation: We slide A to right by 1 unit and down by 1 unit.
+*Explanation: We slide A to right by 1 unit and down by 1 unit.*
 
 **Notes:**
 
@@ -327,22 +329,22 @@ What is the largest possible overlap?
 Given a pattern and a string str, find if str follows the same pattern.
 Here **follow** means a full match, such that there is a bijection between a letter in pattern and a **non-empty** word in str.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: pattern = "abba", str = "dog cat cat dog"
 	Output: true
 
-	Example 2:
+**Example 2:**
 
 	Input:pattern = "abba", str = "dog cat cat fish"
 	Output: false
 
-	Example 3:
+**Example 3:**
 
 	Input: pattern = "aaaa", str = "dog cat cat dog"
 	Output: false
 
-	Example 4:
+**Example 4:**
 
 	Input: pattern = "abba", str = "dog dog dog dog"
 	Output: false
@@ -358,13 +360,13 @@ Given a binary tree, each node has value 0 or 1.  Each root-to-leaf path represe
 For all leaves in the tree, consider the numbers represented by the path from the root to that leaf.
 Return the sum of these numbers.
 
-	**Example 1:**
+**Example 1:**
 
 ![SORTLBN01](https://assets.leetcode.com/uploads/2019/04/04/sum-of-root-to-leaf-binary-numbers.png)
 
 	Input: [1,0,1,0,1,0,1]
 	Output: 22
-	Explanation: (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22
+*Explanation: (100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22*
 
 **Note:**
 
@@ -383,32 +385,32 @@ The . character does not represent a decimal point and is used to separate numbe
 For instance, 2.5 is not "two and a half" or "half way to version three", it is the fifth second-level revision of the second first-level revision.
 You may assume the default revision number for each level of a version number to be 0. For example, version number 3.4 has a revision number of 3 and 4 for its first and second level revision number. Its third and fourth level revision number are both 0.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: version1 = "0.1", version2 = "1.1"
 	Output: -1
 
-	**Example 2:**
+**Example 2:**
 
 	Input: version1 = "1.0.1", version2 = "1"
 	Output: 1
 
-	**Example 3:**
+**Example 3:**
 
 	Input: version1 = "7.5.2.4", version2 = "7.5.3"
 	Output: -1
 
-	**Example 4:**
+**Example 4:**
 
 	Input: version1 = "1.01", version2 = "1.001"
 	Output: 0
-	Explanation: Ignoring leading zeroes, both “01” and “001" represent the same number “1”
+*Explanation: Ignoring leading zeroes, both “01” and “001" represent the same number “1”*
 
-	**Example 5:**
+**Example 5:**
 
 	Input: version1 = "1.0", version2 = "1.0.0"
 	Output: 0
-	Explanation: The first version number does not have a third level revision number, which means its third level revision number is default to "0"
+*Explanation: The first version number does not have a third level revision number, which means its third level revision number is default to "0"*
 
 **Note:**
 
@@ -423,17 +425,17 @@ You are playing the following Bulls and Cows game with your friend: You write do
 Write a function to return a hint according to the secret number and friend's guess, use A to indicate the bulls and B to indicate the cows.
 Please note that both secret number and friend's guess may contain duplicate digits.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: secret = "1807", guess = "7810"
 	Output: "1A3B"
-	Explanation: 1 bull and 3 cows. The bull is 8, the cows are 0, 1 and 7.
+*Explanation: 1 bull and 3 cows. The bull is 8, the cows are 0, 1 and 7.*
 
-	**Example 2:**
+**Example 2:**
 
 	Input: secret = "1123", guess = "0111"
 	Output: "1A1B"
-	Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.
+*Explanation: The 1st 1 in friend's guess is a bull, the 2nd or 3rd 1 is a cow.*
 
 **Note:**
 
@@ -445,14 +447,34 @@ Please note that both secret number and friend's guess may contain duplicate dig
 
 Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product.
 
-	**Example 1:**
+**Example 1:**
 
 	Input: [2,3,-2,4]
 	Output: 6
-	Explanation: [2,3] has the largest product 6.
+*Explanation: [2,3] has the largest product 6.*
 
-	**Example 2:**
+**Example 2:**
 
 	Input: [-2,0,-1]
 	Output: 0
-	Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
+*Explanation: The result cannot be 2, because [-2,-1] is not a subarray.*
+
+
+## Combination Sum III
+([C](./C/ft_combination_sum_3.c)   /   [C#](./Cs/combinationsum3.cs))
+
+Find all possible combinations of k numbers that add up to a number n, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers.
+
+**Note:**
+	All numbers will be positive integers.
+	The solution set must not contain duplicate combinations.
+
+**Example 1:**
+
+	Input: k = 3, n = 7
+	Output: [[1,2,4]]
+
+**Example 2:**
+
+	Input: k = 3, n = 9
+	Output: [[1,2,6], [1,3,5], [2,3,4]]

@@ -482,6 +482,7 @@ Find all possible combinations of k numbers that add up to a number n, given tha
 
 ## Insert Interval
 *Special thanks to [gbudau](https://github.com/gbudau) for his help with pointers*
+
 ([C](./C/ft_insert_interval.c)   /   [C#](./Cs/insertinterval.cs))
 
 Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).

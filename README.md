@@ -15,6 +15,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0057 | [Insert Interval](./document.md/#insert-interval) | `Array`, `Sort` | Hard | 2020. 09. 13. |
 | 0152 | [Maximum Product Subarray](./document.md/#maximum-product-subarray) | `Array`, `Dynamic Programming` | Medium | 2020. 09. 11. |
 | 0165 | [Compare Version Numbers](./document.md/#compare-version-numbers) | `String` | Medium | 2020. 09. 09. |
+| 0198 | [House Robber](./document.md/#house-robber) | `Dynamic Programming` | Easy | 2020. 09. 14. |
 | 0216 | [Combination Sum III](./document.md/#combination-sum-iii) | `Array`, `Backtracking` | Medium | 2020. 09. 12. |
 | 0220 | [Contains Duplicate III](./document.md/#contains-duplicate-iii) | `Sort`, `Ordered Map` | Medium | 2020. 09. 02. |
 | 0290 | [Word Pattern](./document.md/#word-pattern) | `Hash Table` | Easy | 2020. 09. 07. |

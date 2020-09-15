@@ -13,6 +13,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0020 | [Valid Parentheses](./document.md/#valid-parentheses) | `String`, `Stack` | Easy | 2020. 08. 27. |
 | 0021 | [Merge Two Sorted Lists](./document.md/#merge-two-sorted-lists) | `Linked List` | Easy | 2020. 08. 30. |
 | 0057 | [Insert Interval](./document.md/#insert-interval) | `Array`, `Sort` | Hard | 2020. 09. 13. |
+| 0058 | [Length of Last Word](./document.md/#length-of-last-word) | `String` | Easy | 2020. 09. 15. |
 | 0152 | [Maximum Product Subarray](./document.md/#maximum-product-subarray) | `Array`, `Dynamic Programming` | Medium | 2020. 09. 11. |
 | 0165 | [Compare Version Numbers](./document.md/#compare-version-numbers) | `String` | Medium | 2020. 09. 09. |
 | 0198 | [House Robber](./document.md/#house-robber) | `Dynamic Programming` | Easy | 2020. 09. 14. |

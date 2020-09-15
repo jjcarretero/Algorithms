@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/libft.h"
+
 int rob(int* nums, int numsSize)
 {
 	int	i;

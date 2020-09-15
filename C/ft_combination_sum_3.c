@@ -20,6 +20,8 @@
 **	}					t_traverse;
 */
 
+#include "../includes/libft.h"
+
 static void	traverse_single(int k, int n, t_traverse *trav, int start)
 {
 	if (start > n || n > 9)

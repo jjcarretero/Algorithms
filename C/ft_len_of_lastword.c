@@ -1,38 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_max_product_subar.c                             :+:      :+:    :+:   */
+/*   ft_len_of_lastword.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jcarrete <jcarrete@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/09/11 10:59:35 by jcarrete          #+#    #+#             */
-/*   Updated: 2020/09/11 10:59:35 by jcarrete         ###   ########.fr       */
+/*   Created: 2020/09/15 12:43:29 by jcarrete          #+#    #+#             */
+/*   Updated: 2020/09/15 12:43:29 by jcarrete         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-int	maxProduct(int *nums, int size)
+int	lengthOfLastWord(char *s)
 {
-	int	left;
-	int	right;
-	int	max;
 	int	i;
+	int	cur_len;
+	int	pre_len;
 
-	left = 1;
-	right = 1;
-	max = -2147483648;
 	i = 0;
-	while (i < size)
+	cur_len = 0;
+	pre_len = 0;
+	while (s[i])
 	{
-		left *= nums[i];
-		right *= nums[size - i - 1];
-		max = ft_max(max, ft_max(left, right));
-		if (left == 0)
-			left++;
-		if (right == 0)
-			right++;
+		if (s[i] == 32)
+		{
+			if (cur_len != 0)
+				pre_len = cur_len;
+			cur_len = 0;
+		}
+		else
+			cur_len++;
 		i++;
 	}
-	return (max);
+	return (cur_len ? cur_len : pre_len);
 }

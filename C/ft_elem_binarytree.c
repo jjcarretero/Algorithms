@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./libft.h"
+#include "../includes/libft.h"
 
 int *merge_trees(int *tree1, int ind1, int *tree2, int ind2)
 {

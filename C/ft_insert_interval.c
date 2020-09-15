@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/libft.h"
+
 void			copy_interval_array(int *interval, int **arr, int i)
 {
 	arr[i][0] = interval[0];

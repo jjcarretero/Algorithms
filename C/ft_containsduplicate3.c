@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/libft.h"
+
 static void		ft_sort(int *nums, int *ind, int start, int end)
 {
 	int	s;

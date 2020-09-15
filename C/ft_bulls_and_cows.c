@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/libft.h"
+
 static void	count_animals(char *secret, char *guess, int *bulls, int *cows)
 {
 	int	count[10];

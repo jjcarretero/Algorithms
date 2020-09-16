@@ -21,6 +21,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0220 | [Contains Duplicate III](./document.md/#contains-duplicate-iii) | `Sort`, `Ordered Map` | Medium | 2020. 09. 02. |
 | 0290 | [Word Pattern](./document.md/#word-pattern) | `Hash Table` | Easy | 2020. 09. 07. |
 | 0299 | [Bulls and Cows](./document.md/#bulls-and-cows) | `Hash Table` | Easy | 2020. 09. 10. |
+| 0421 | [Maximum XOR of Two Numbers in an Array](./document.md/#maximum-xor-of-two-numbers-in-an-array) | `Bit Manipulation`, `Trie` | Medium | 2020. 09. 16. |
 | 0459 | [Repeated Substring Pattern](./document.md/#repeated-substring-pattern) | `String` | Easy | 2020. 09. 03. |
 | 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 09. 04. |
 | 0835 | [Image Overlap](./document.md/#image-overlap) | `Array` | Medium | 2020. 09. 06. |

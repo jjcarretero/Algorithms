@@ -27,6 +27,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0835 | [Image Overlap](./document.md/#image-overlap) | `Array` | Medium | 2020. 09. 06. |
 | 0949 | [Largest Time For Given Digits](./document.md/#largest-time-for-given-digits) | `Math` | Easy | 2020. 09. 01. |
 | 1022 | [Sum of Root to Leaf Binary Numbers](./document.md/#sum-of-root-to-leaf-binary-numbers) | `Tree` | Easy | 2020. 09. 08. |
+| 1041 | [Robot Bounded In Circle](./document.md/#robot-bounded-in-circle) | `Math` | Medium | 2020. 09. 17. |
 | 1305 | [All Elements in Two Binary Search Trees](./document.md/#all-elements-in-two-binary-search-trees) | `Sort`, `Tree` | Medium | 2020. 09. 05. |
 
 Enjoy!

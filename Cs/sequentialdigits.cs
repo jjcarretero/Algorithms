@@ -19,6 +19,8 @@ public class Solution
 		{
 			if ((solutions[i] >= low) && (solutions[i] <= high))
 				ret.Add(solutions[i]);
+			else if (solutions[i] > high)
+				break ;
 			i++;
 		}
 		return (ret);

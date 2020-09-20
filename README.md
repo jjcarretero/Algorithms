@@ -27,7 +27,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 09. 04. |
 | 0835 | [Image Overlap](./document.md/#image-overlap) | `Array` | Medium | 2020. 09. 06. |
 | 0949 | [Largest Time For Given Digits](./document.md/#largest-time-for-given-digits) | `Math` | Easy | 2020. 09. 01. |
-| 0980 | [Unique Paths III](./document.md/#unique-paths-iii) | `Backtracking`, `Depth-first Search` | Hard | 2020. 09. 20. |
+| 0980 | [Unique Paths III](./document.md/#unique-paths-iii) | `Backtracking`, `DFS` | Hard | 2020. 09. 20. |
 | 1022 | [Sum of Root to Leaf Binary Numbers](./document.md/#sum-of-root-to-leaf-binary-numbers) | `Tree` | Easy | 2020. 09. 08. |
 | 1041 | [Robot Bounded In Circle](./document.md/#robot-bounded-in-circle) | `Math` | Medium | 2020. 09. 17. |
 | 1291 | [Sequential Digits](./document.md/#sequential-digits) | `Backtracking` | Medium | 2020. 09. 19. |

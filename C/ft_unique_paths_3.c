@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/libft.h"
+
 typedef struct	s_grid
 {
 	int	**grid_ref;

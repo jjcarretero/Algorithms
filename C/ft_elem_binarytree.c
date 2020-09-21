@@ -36,7 +36,6 @@ int *merge_trees(int *tree1, int ind1, int *tree2, int ind2)
 	return (ret);
 }
 
-
 void inorder_tree(struct TreeNode *root, int *tree, int *ind)
 {
 	if (!root)
@@ -45,7 +44,6 @@ void inorder_tree(struct TreeNode *root, int *tree, int *ind)
 	tree[(*ind)++] = root->val;
 	inorder_tree(root->right, tree, ind);
 }
-
 
 int *getAllElements(struct TreeNode *root1, struct TreeNode *root2, int *returnSize)
 {

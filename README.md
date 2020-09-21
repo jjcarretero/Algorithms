@@ -30,6 +30,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0980 | [Unique Paths III](./document.md/#unique-paths-iii) | `Backtracking`, `DFS` | Hard | 2020. 09. 20. |
 | 1022 | [Sum of Root to Leaf Binary Numbers](./document.md/#sum-of-root-to-leaf-binary-numbers) | `Tree` | Easy | 2020. 09. 08. |
 | 1041 | [Robot Bounded In Circle](./document.md/#robot-bounded-in-circle) | `Math` | Medium | 2020. 09. 17. |
+| 1094 | [Car Pooling](./document.md/#car-pooling) | `Greedy` | Medium | 2020. 09. 21. |
 | 1291 | [Sequential Digits](./document.md/#sequential-digits) | `Backtracking` | Medium | 2020. 09. 19. |
 | 1305 | [All Elements in Two Binary Search Trees](./document.md/#all-elements-in-two-binary-search-trees) | `Sort`, `Tree` | Medium | 2020. 09. 05. |
 

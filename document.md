@@ -712,3 +712,20 @@ Return true if and only if it is possible to pick up and drop off all passengers
 	1 <= trips[i][0] <= 100
 	0 <= trips[i][1] < trips[i][2] <= 1000
 	1 <= capacity <= 100000
+
+
+## Majority Element II
+([C](./C/ft_majority_element_2.c)   /   [C#](./Cs/majorityelement2.cs))
+
+Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+**Note:** The algorithm should run in linear time and in O(1) space.
+
+**Example 1:**
+
+	Input: [3,2,3]
+	Output: [3]
+
+**Example 2:**
+
+	Input: [1,1,1,3,3,2,2,2]
+	Output: [1,2]

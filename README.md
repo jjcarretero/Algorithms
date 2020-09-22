@@ -20,6 +20,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0198 | [House Robber](./document.md/#house-robber) | `Dynamic Programming` | Easy | 2020. 09. 14. |
 | 0216 | [Combination Sum III](./document.md/#combination-sum-iii) | `Array`, `Backtracking` | Medium | 2020. 09. 12. |
 | 0220 | [Contains Duplicate III](./document.md/#contains-duplicate-iii) | `Sort`, `Ordered Map` | Medium | 2020. 09. 02. |
+| 0229 | [Majority Element II](./document.md/#majority-element-ii) | `Array` | Medium | 2020. 09. 22. |
 | 0290 | [Word Pattern](./document.md/#word-pattern) | `Hash Table` | Easy | 2020. 09. 07. |
 | 0299 | [Bulls and Cows](./document.md/#bulls-and-cows) | `Hash Table` | Easy | 2020. 09. 10. |
 | 0421 | [Maximum XOR of 2 Numbers in Array](./document.md/#maximum-xor-of-two-numbers-in-an-array) | `Bit Manipulation`, `Trie` | Medium | 2020. 09. 16. |

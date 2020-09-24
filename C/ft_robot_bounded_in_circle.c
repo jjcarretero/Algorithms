@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/libft.h"
+
 static int	check_exit(int x, int y, int dir)
 {
 	if (x == 0 && y == 0)

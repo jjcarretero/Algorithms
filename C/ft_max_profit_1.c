@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/libft.h"
+
 int	maxProfit(int *prices, int pricesSize)
 {
 	int	min;

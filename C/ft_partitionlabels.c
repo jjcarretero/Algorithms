@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./libft.h"
+#include "../includes/libft.h"
 
 int	*ft_intiate(int len, int *returnSize, int *end, int *prev)
 {

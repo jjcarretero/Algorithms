@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./libft.h"
+#include "../includes/libft.h"
 
 t_list*	mergeTwoLists(t_list* lst1, t_list* lst2)
 {

@@ -24,6 +24,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0229 | [Majority Element II](./document.md/#majority-element-ii) | `Array` | Medium | 2020. 09. 22. |
 | 0290 | [Word Pattern](./document.md/#word-pattern) | `Hash Table` | Easy | 2020. 09. 07. |
 | 0299 | [Bulls and Cows](./document.md/#bulls-and-cows) | `Hash Table` | Easy | 2020. 09. 10. |
+| 0389 | [Find the Difference](./document.md/#find-the-difference) | `Hash Table`, `Bit Manipulation` | Easy | 2020. 09. 24. |
 | 0421 | [Maximum XOR of 2 Numbers in Array](./document.md/#maximum-xor-of-two-numbers-in-an-array) | `Bit Manipulation`, `Trie` | Medium | 2020. 09. 16. |
 | 0459 | [Repeated Substring Pattern](./document.md/#repeated-substring-pattern) | `String` | Easy | 2020. 09. 03. |
 | 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 09. 04. |

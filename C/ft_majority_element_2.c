@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/libft.h"
+
 void	find_majorities(int *nums, int numsSize, int *ret, int *counter)
 {
 	int	i;

@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "../includes/libft.h"
+
 int	canCompleteCircuit(int *gas, int gasSize, int *cost, int costSize)
 {
 	int	start;

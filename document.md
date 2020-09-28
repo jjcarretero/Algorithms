@@ -883,3 +883,21 @@ The input is always valid. You may assume that evaluating the queries will resul
 	queries[i].length == 2
 	1 <= queries[i][0], queries[i][1] <= 5
 	equations[i][0], equations[i][1], queries[i][0], queries[i][1] consist of lower case English letters and digits.
+
+
+## Subarray Product Less Than K
+([C](./C/ft_subarray_product_less_than_k.c)   /   [C#](./Cs/subarrayproductlessthank.cs))
+
+Your are given an array of positive integers nums.
+Count and print the number of (contiguous) subarrays where the product of all the elements in the subarray is less than k.
+
+**Example 1:**
+	Input: nums = [10, 5, 2, 6], k = 100
+	Output: 8
+*Explanation: The 8 subarrays that have product less than 100 are: [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6].*
+*Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.*
+
+**Note:**
+	0 < nums.length <= 50000.
+	0 < nums[i] < 1000.
+	0 <= k < 10^6.

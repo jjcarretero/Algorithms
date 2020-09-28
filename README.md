@@ -29,9 +29,10 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0399 | [Evaluate Division](./document.md/#evaluate-division) | `Union Find`, `Graph` | Medium | 2020. 09. 27. |
 | 0421 | [Maximum XOR of 2 Numbers in Array](./document.md/#maximum-xor-of-two-numbers-in-an-array) | `Bit Manipulation`, `Trie` | Medium | 2020. 09. 16. |
 | 0459 | [Repeated Substring Pattern](./document.md/#repeated-substring-pattern) | `String` | Easy | 2020. 09. 03. |
-| 0495 | [Teemo Attacking](./document.md/#teemo-attacking) | `Array` | Medium | 2020. 09. 03. |
+| 0495 | [Teemo Attacking](./document.md/#teemo-attacking) | `Array` | Medium | 2020. 09. 26. |
+| 0713 | [Subarray Product Less than K](./document.md/#subarray-product-less-than-k) | `Array`, `Two Pointers` | Medium | 2020. 09. 28. |
 | 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 09. 04. |
-| 0835 | [Image Overlap](./document.md/#image-overlap) | `Array` | Medium | 2020. 09. 26. |
+| 0835 | [Image Overlap](./document.md/#image-overlap) | `Array` | Medium | 2020. 09. 06. |
 | 0949 | [Largest Time For Given Digits](./document.md/#largest-time-for-given-digits) | `Math` | Easy | 2020. 09. 01. |
 | 0980 | [Unique Paths III](./document.md/#unique-paths-iii) | `Backtracking`, `DFS` | Hard | 2020. 09. 20. |
 | 1022 | [Sum of Root to Leaf Binary Numbers](./document.md/#sum-of-root-to-leaf-binary-numbers) | `Tree` | Easy | 2020. 09. 08. |

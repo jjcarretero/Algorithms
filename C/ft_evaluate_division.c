@@ -15,7 +15,7 @@
 /*
 **	typedef struct		s_node
 **	{
-**		char	name[100];
+**		char	name[6];
 **	}					t_node;
 **
 **	typedef struct		s_graph

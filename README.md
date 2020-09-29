@@ -16,6 +16,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0058 | [Length of Last Word](./document.md/#length-of-last-word) | `String` | Easy | 2020. 09. 15. |
 | 0121 | [Best Time to Buy and Sell Stock](./document.md/#best-time-to-buy-and-sell-stock) | `Array`, `Dynamic Programming` | Easy | 2020. 09. 18. |
 | 0134 | [Gas Station](./document.md/#gas-station) | `Greedy` | Medium | 2020. 09. 23. |
+| 0139 | [Word Break](./document.md/#word-break) | `Dynamic Programming` | Medium | 2020. 09. 29. |
 | 0152 | [Maximum Product Subarray](./document.md/#maximum-product-subarray) | `Array`, `Dynamic Programming` | Medium | 2020. 09. 11. |
 | 0165 | [Compare Version Numbers](./document.md/#compare-version-numbers) | `String` | Medium | 2020. 09. 09. |
 | 0179 | [Largest Number](./document.md/#largest-number) | `Sort` | Medium | 2020. 09. 25. |

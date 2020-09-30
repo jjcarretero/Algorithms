@@ -6,8 +6,8 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 ## Already done
 | # | Title | Tags | Difficulty | Date |
 |:---:|:---|:---:|:---|:---:|
-| 0001 | [Two Sum](./document.md/#two-sum) | `Array`, `Hash Table`| Easy | 2020. 08. 16. |
-| 0007 | [Reverse Integer](./document.md/#reverse-integer) | `Math` | Easy | 2020. 08. 20. |
+| 0001 | [Two Sum](./document.md/#0001-two-sum) | `Array`, `Hash Table`| Easy | 2020. 08. 16. |
+| 0007 | [Reverse Integer](./document.md/#0007-reverse-integer) | `Math` | Easy | 2020. 08. 20. |
 | 0009 | [Palindrome Number](./document.md/#palindrome-number) | `Math` | Easy | 2020. 08. 21. |
 | 0013 | [Roman to Integer](./document.md/#roman-to-integer) | `Math`, `String` | Easy | 2020. 08. 22. |
 | 0020 | [Valid Parentheses](./document.md/#valid-parentheses) | `String`, `Stack` | Easy | 2020. 08. 27. |

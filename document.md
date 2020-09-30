@@ -1,5 +1,5 @@
-## Two sum
-([C](./C/ft_twosum.c)   /   [C#](./Cs/twosum.cs))
+## 0001 Two sum
+([C](./C/0001_two_sum.c)   /   [C#](./Cs/0001_twosum.cs))
 
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
 
@@ -13,8 +13,8 @@ You may assume that each input would have **exactly** one solution, and you may 
 	return [0, 1].
 
 
-## Reverse Integer
-([C](./C/ft_reverse_int.c)   /   [C#](./Cs/reverseint.cs))
+## 0007 Reverse Integer
+([C](./C/0007_reverse_int.c)   /   [C#](./Cs/0007_reverseint.cs))
 
 Given a 32-bit signed integer, reverse digits of an integer.
 

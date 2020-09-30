@@ -12,6 +12,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0013 | [Roman to Integer](./document.md/#roman-to-integer) | `Math`, `String` | Easy | 2020. 08. 22. |
 | 0020 | [Valid Parentheses](./document.md/#valid-parentheses) | `String`, `Stack` | Easy | 2020. 08. 27. |
 | 0021 | [Merge Two Sorted Lists](./document.md/#merge-two-sorted-lists) | `Linked List` | Easy | 2020. 08. 30. |
+| 0041 | [First Missing Positive](./document.md/#first-missing-positive) | `Array` | Hard | 2020. 09. 30. |
 | 0057 | [Insert Interval](./document.md/#insert-interval) | `Array`, `Sort` | Medium | 2020. 09. 13. |
 | 0058 | [Length of Last Word](./document.md/#length-of-last-word) | `String` | Easy | 2020. 09. 15. |
 | 0121 | [Best Time to Buy and Sell Stock](./document.md/#best-time-to-buy-and-sell-stock) | `Array`, `Dynamic Programming` | Easy | 2020. 09. 18. |

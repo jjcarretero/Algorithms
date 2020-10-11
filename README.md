@@ -8,8 +8,8 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 |:---:|:---|:---:|:---|:---:|
 | 0001 | [Two Sum](./document.md/#0001-two-sum) | `Array`, `Hash Table`| Easy | 2020. 08. 16. |
 | 0007 | [Reverse Integer](./document.md/#0007-reverse-integer) | `Math` | Easy | 2020. 08. 20. |
-| 0009 | [Palindrome Number](./document.md/#palindrome-number) | `Math` | Easy | 2020. 08. 21. |
-| 0013 | [Roman to Integer](./document.md/#roman-to-integer) | `Math`, `String` | Easy | 2020. 08. 22. |
+| 0009 | [Palindrome Number](./document.md/#0009-palindrome-number) | `Math` | Easy | 2020. 08. 21. |
+| 0013 | [Roman to Integer](./document.md/#0013-roman-to-integer) | `Math`, `String` | Easy | 2020. 08. 22. |
 | 0020 | [Valid Parentheses](./document.md/#valid-parentheses) | `String`, `Stack` | Easy | 2020. 08. 27. |
 | 0021 | [Merge Two Sorted Lists](./document.md/#merge-two-sorted-lists) | `Linked List` | Easy | 2020. 08. 30. |
 | 0041 | [First Missing Positive](./document.md/#first-missing-positive) | `Array` | Hard | 2020. 09. 30. |
@@ -33,6 +33,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0459 | [Repeated Substring Pattern](./document.md/#repeated-substring-pattern) | `String` | Easy | 2020. 09. 03. |
 | 0495 | [Teemo Attacking](./document.md/#teemo-attacking) | `Array` | Medium | 2020. 09. 26. |
 | 0713 | [Subarray Product Less than K](./document.md/#subarray-product-less-than-k) | `Array`, `Two Pointers` | Medium | 2020. 09. 28. |
+| 0729 | [Find Pivot Index](./document.md/#0729-find_pivot_index) | `Array` | Easy | 2020. 10. 11. |
 | 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 09. 04. |
 | 0835 | [Image Overlap](./document.md/#image-overlap) | `Array` | Medium | 2020. 09. 06. |
 | 0949 | [Largest Time For Given Digits](./document.md/#largest-time-for-given-digits) | `Math` | Easy | 2020. 09. 01. |

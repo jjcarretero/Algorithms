@@ -37,8 +37,8 @@ Assume we are dealing with an environment which could only store integers within
 	Output: 21
 
 
-## Palindrome Number
-([C](./C/ft_ispalindrome.c)   /   [C#](./Cs/ispalindrome.cs))
+## 0009 Palindrome Number
+([C](./C/0009_is_palindrome.c)   /   [C#](./Cs/0009_ispalindrome.cs))
 
 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
 
@@ -63,8 +63,8 @@ Solve it without converting the integer to a string
 *Explanation: Reads 01 from right to left. Therefore it is not a palindrome.*
 
 
-## Roman to Integer
-([C](./C/ft_romantoi.c)   /   [C#](./Cs/romantoint.cs))
+## 0013 Roman to Integer
+([C](./C/0013_roman_to_int.c)   /   [C#](./Cs/0013_romantoint.cs))
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
@@ -114,6 +114,33 @@ Given a roman numeral, convert it to an integer. Input is guaranteed to be withi
 	Input: "MCMXCIV"
 	Output: 1994
 *Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.*
+
+
+## 0724 Find Pivot Index
+([C](./C/0724_find_pivot_index.c)   /   [C#](./Cs/0724_findpivotindex.cs))
+
+Given an array of integers nums, write a method that returns the "pivot" index of this array.
+We define the pivot index as the index where the sum of all the numbers to the left of the index is equal to the sum of all the numbers to the right of the index.
+If no such index exists, we should return -1. If there are multiple pivot indexes, you should return the left-most pivot index.
+
+**Example 1:**
+
+	Input: nums = [1,7,3,6,5,6]
+	Output: 3
+*Explanation:*
+*The sum of the numbers to the left of index 3 (nums[3] = 6) is equal to the sum of numbers to the right of index 3.*
+*Also, 3 is the first index where this occurs.*
+
+**Example 2:**
+
+	Input: nums = [1,2,3]
+	Output: -1
+*Explanation:*
+*There is no index that satisfies the conditions in the problem statement.*
+
+**Constraints:**
+	The length of nums will be in the range [0, 10000].
+	Each element nums[i] will be an integer in the range [-1000, 1000].
 
 
 ## Valid Parentheses

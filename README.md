@@ -33,7 +33,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0459 | [Repeated Substring Pattern](./document.md/#repeated-substring-pattern) | `String` | Easy | 2020. 09. 03. |
 | 0495 | [Teemo Attacking](./document.md/#teemo-attacking) | `Array` | Medium | 2020. 09. 26. |
 | 0713 | [Subarray Product Less than K](./document.md/#subarray-product-less-than-k) | `Array`, `Two Pointers` | Medium | 2020. 09. 28. |
-| 0729 | [Find Pivot Index](./document.md/#0729-find_pivot_index) | `Array` | Easy | 2020. 10. 11. |
+| 0729 | [Find Pivot Index](./document.md/#0729-find-pivot-index) | `Array` | Easy | 2020. 10. 11. |
 | 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 09. 04. |
 | 0835 | [Image Overlap](./document.md/#image-overlap) | `Array` | Medium | 2020. 09. 06. |
 | 0949 | [Largest Time For Given Digits](./document.md/#largest-time-for-given-digits) | `Math` | Easy | 2020. 09. 01. |

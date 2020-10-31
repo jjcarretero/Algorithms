@@ -10,8 +10,8 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0007 | [Reverse Integer](./document.md/#0007-reverse-integer) | `Math` | Easy | 2020. 08. 20. |
 | 0009 | [Palindrome Number](./document.md/#0009-palindrome-number) | `Math` | Easy | 2020. 08. 21. |
 | 0013 | [Roman to Integer](./document.md/#0013-roman-to-integer) | `Math`, `String` | Easy | 2020. 08. 22. |
-| 0020 | [Valid Parentheses](./document.md/#valid-parentheses) | `String`, `Stack` | Easy | 2020. 08. 27. |
-| 0021 | [Merge Two Sorted Lists](./document.md/#merge-two-sorted-lists) | `Linked List` | Easy | 2020. 08. 30. |
+| 0020 | [Valid Parentheses](./document.md/#0020-valid-parentheses) | `String`, `Stack` | Easy | 2020. 08. 27. |
+| 0021 | [Merge Two Sorted Lists](./document.md/#0021-merge-two-sorted-lists) | `Linked List` | Easy | 2020. 08. 30. |
 | 0041 | [First Missing Positive](./document.md/#first-missing-positive) | `Array` | Hard | 2020. 09. 30. |
 | 0057 | [Insert Interval](./document.md/#insert-interval) | `Array`, `Sort` | Medium | 2020. 09. 13. |
 | 0058 | [Length of Last Word](./document.md/#length-of-last-word) | `String` | Easy | 2020. 09. 15. |
@@ -34,6 +34,7 @@ The aim of this project is to code all Leetcode Challenges from Easy to Hard in 
 | 0495 | [Teemo Attacking](./document.md/#teemo-attacking) | `Array` | Medium | 2020. 09. 26. |
 | 0713 | [Subarray Product Less than K](./document.md/#subarray-product-less-than-k) | `Array`, `Two Pointers` | Medium | 2020. 09. 28. |
 | 0724 | [Find Pivot Index](./document.md/#0724-find-pivot-index) | `Array` | Easy | 2020. 10. 11. |
+| 0747 | [Largest Number At Least Twice of Others](./document.md/#0747-largest-number-at-least-twice-of-others) | `Array` | Easy | 2020. 10. 31. |
 | 0763 | [Partition Labels](./document.md/#partition-labels) | `Two Pointers`, `Greedy` | Medium | 2020. 09. 04. |
 | 0835 | [Image Overlap](./document.md/#image-overlap) | `Array` | Medium | 2020. 09. 06. |
 | 0949 | [Largest Time For Given Digits](./document.md/#largest-time-for-given-digits) | `Math` | Easy | 2020. 09. 01. |
